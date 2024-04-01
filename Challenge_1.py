@@ -1,4 +1,7 @@
 # challenge 01
+import datetime
+
+
 def sum_num(a, b, c):
     total = (a + b + c)
     if a == b == c:
@@ -77,3 +80,9 @@ def sum_pos_divisor(num):
         if (num % i) == 0:
             sum_of_divisors += i
     return sum_of_divisors == num
+
+
+# challenge 10
+def check_friday_13(yr, mon):
+    date = datetime.date(yr, mon, 13)
+    return date, date.weekday() == 4
