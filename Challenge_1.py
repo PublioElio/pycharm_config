@@ -90,6 +90,7 @@ def check_friday_13(yr, mon):
 
 # challenge 12
 def check_division(a, b):
-    num = 0
+    num = a + 1
+    while num % b != 0:
+        num += 1
     return num
-
