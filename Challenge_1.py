@@ -25,3 +25,9 @@ def even_odd(num):
 
 
 # challenge 05
+def factors(number):
+    factors_list = []
+    for i in range(1, number + 1):
+        if number % i == 0:
+            factors_list.append(i)
+    return factors_list
