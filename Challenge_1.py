@@ -11,3 +11,7 @@ def sqrt(num):
     while abs(estimation * estimation - num) > tolerance:
         estimation = (estimation + num / estimation) / 2.0
     return round(estimation, 3)
+
+
+def quot_rem(num1, num2):
+    return round(num1 / num2, 2), num1 % num2
