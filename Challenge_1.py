@@ -51,9 +51,11 @@ def decimal_part(num):
 
 # challenge 08
 def fizzbuzz(num):
-    result = "FizzBuzz"
-    if num % 3 == 0:
+    result = num
+    if (num % 3 == 0) and (num % 5 == 0):
+        result = "FizzBuzz"
+    elif num % 3 == 0:
         result = "Fizz"
-    if num % 5 == 0:
+    elif num % 5 == 0:
         result = "Buzz"
     return result
