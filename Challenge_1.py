@@ -59,3 +59,12 @@ def fizzbuzz(num):
     elif num % 5 == 0:
         result = "Buzz"
     return result
+
+
+# challenge 09
+def count_num_digits(input_string):
+    count = 0
+    for char in input_string:
+        if char.isdigit():
+            count += 1
+    return count
