@@ -68,3 +68,12 @@ def count_num_digits(input_string):
         if char.isdigit():
             count += 1
     return count
+
+
+# challenge 09
+def sum_pos_divisor(num):
+    sum_of_divisors = 0
+    for i in range(1, num-1):
+        if (num % i) == 0:
+            sum_of_divisors += i
+    return sum_of_divisors == num
