@@ -31,3 +31,9 @@ def factors(number):
         if number % i == 0:
             factors_list.append(i)
     return factors_list
+
+
+# challenge 06
+def power(x, y):
+    result = 1
+    return result
