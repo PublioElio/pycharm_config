@@ -18,7 +18,4 @@ def quot_rem(num1, num2):
 
 
 def even_odd(num):
-    result = "odd"
-    if num % 2 == 0:
-        result = "Even"
-    return result
+    return "Even" if num % 2 == 0 else "Odd"
