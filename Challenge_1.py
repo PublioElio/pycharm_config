@@ -15,3 +15,10 @@ def sqrt(num):
 
 def quot_rem(num1, num2):
     return round(num1 / num2, 2), num1 % num2
+
+
+def even_odd(num):
+    result = "odd"
+    if num % 2 == 0:
+        result = "Even"
+    return result
