@@ -124,5 +124,18 @@ def factorial():
 
 
 # challenge 16
-def check_division(num):
+def check_division_two(num):
     return num, num % 1 == 0
+
+
+# challenge 17
+def prime_num(num):
+    is_prime = False
+    if num > 1:
+        is_prime = True
+        count = 2
+        num_sqrt = int(num ** 0.5)
+        while count <= num_sqrt and is_prime:
+            is_prime = num % count != 0
+            count += 1
+    return is_prime
