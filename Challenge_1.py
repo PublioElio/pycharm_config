@@ -47,3 +47,13 @@ def decimal_part(num):
     if decimal == 0:
         decimal = "INTEGER"
     return decimal
+
+
+# challenge 08
+def fizzbuzz(num):
+    result = "FizzBuzz"
+    if num % 3 == 0:
+        result = "Fizz"
+    if num % 5 == 0:
+        result = "Buzz"
+    return result
