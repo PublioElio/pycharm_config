@@ -43,6 +43,8 @@ def power(x, y):
 
 # challenge 07
 def decimal_part(num):
-    result = 0
-    
-    return result
+    decimal = num - int(num)
+    decimal = round(decimal, 2)
+    if decimal == 0:
+        decimal = "INTEGER"
+    return decimal
