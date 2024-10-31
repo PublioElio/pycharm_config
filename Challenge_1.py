@@ -39,3 +39,10 @@ def power(x, y):
     for i in range(y):
         result *= x
     return result
+
+
+# challenge 07
+def decimal_part(num):
+    result = 0
+    
+    return result
