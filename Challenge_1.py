@@ -1,7 +1,7 @@
-# challenge 01
 import datetime
 
 
+# challenge 01
 def sum_num(a, b, c):
     total = (a + b + c)
     if a == b == c:
@@ -73,7 +73,7 @@ def count_num_digits(input_string):
     return count
 
 
-# challenge 09
+# challenge 10
 def sum_pos_divisor(num):
     sum_of_divisors = 0
     for i in range(1, num-1):
@@ -82,7 +82,10 @@ def sum_pos_divisor(num):
     return sum_of_divisors == num
 
 
-# challenge 10
+# challenge 11
 def check_friday_13(yr, mon):
     date = datetime.date(yr, mon, 13)
     return date, date.weekday() == 4
+
+
+# challenge 12
