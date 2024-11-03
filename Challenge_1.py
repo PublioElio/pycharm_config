@@ -121,3 +121,8 @@ def factorial():
     for i in range(1, num + 1):
         fact *= i
     return num, fact
+
+
+# challenge 16
+def check_division(num):
+    return num, num % 1 == 0
