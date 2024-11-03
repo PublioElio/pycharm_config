@@ -101,7 +101,8 @@ def check_division(a, b):
 def calculate_length():
     count = 0
     n = random.randint(1, 5000)
-    while n > 0:
+    num = n
+    while num > 0:
         count += 1
-        n /= 10
+        num //= 10
     return n, count
