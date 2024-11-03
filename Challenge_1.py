@@ -98,5 +98,5 @@ def check_division(a, b):
 
 # challenge 13
 def calculate_length():
-    
+
     return length
