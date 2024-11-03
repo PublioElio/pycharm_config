@@ -113,3 +113,11 @@ def booleans(x, y, z):
     result = (x and y) or (x and z) or (y and z)
     return x, y, z, result
 
+
+# challenge 15
+def factorial():
+    num = random.randint(1, 10)
+    fact = 1
+    for i in range(1, num + 1):
+        fact *= i
+    return num, fact
