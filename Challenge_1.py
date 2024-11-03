@@ -110,11 +110,6 @@ def calculate_length():
 
 # challenge 14
 def booleans(x, y, z):
-    result = False
-    if x & y:
-        result = True
-    elif x & z:
-        result = True
-    elif z & y:
-        result = True
+    result = (x and y) or (x and z) or (y and z)
     return x, y, z, result
+
