@@ -94,3 +94,9 @@ def check_division(a, b):
     while num % b != 0:
         num += 1
     return num
+
+
+# challenge 13
+def calculate_length():
+    
+    return length
