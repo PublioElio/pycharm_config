@@ -1,4 +1,5 @@
 import datetime
+import random
 
 
 # challenge 01
@@ -76,7 +77,7 @@ def count_num_digits(input_string):
 # challenge 10
 def sum_pos_divisor(num):
     sum_of_divisors = 0
-    for i in range(1, num-1):
+    for i in range(1, num - 1):
         if (num % i) == 0:
             sum_of_divisors += i
     return sum_of_divisors == num
@@ -98,6 +99,9 @@ def check_division(a, b):
 
 # challenge 13
 def calculate_length():
-    length = 0
-
-    return length
+    count = 0
+    n = random.randint(1, 5000)
+    while n > 0:
+        count += 1
+        n /= 10
+    return n, count
