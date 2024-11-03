@@ -106,3 +106,15 @@ def calculate_length():
         count += 1
         num //= 10
     return n, count
+
+
+# challenge 14
+def booleans(x, y, z):
+    result = False
+    if x & y:
+        result = True
+    elif x & z:
+        result = True
+    elif z & y:
+        result = True
+    return x, y, z, result
