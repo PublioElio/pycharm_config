@@ -178,3 +178,13 @@ def swap_bits(num):
     binary_list[pos1], binary_list[pos2] = binary_list[pos2], binary_list[pos1]
     swapped_binary_str = ''.join(binary_list)
     return int(swapped_binary_str, 2)
+
+
+# challenge 21
+def fibonacci():
+    n = random.randint(5, 10)
+    output_sequence = [0, 1, 1, 2, 3]
+    while len(output_sequence) < n:
+        next_number = output_sequence[-1] + output_sequence[-2]
+        output_sequence.append(next_number)
+    return n, output_sequence
