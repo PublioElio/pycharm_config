@@ -158,4 +158,7 @@ def sum_digits_of_number(number):
 
 # challenge 19
 def divide_by_15():
+    input_list = generate_list()
     return input_list, output_list
+
+
