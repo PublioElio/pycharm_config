@@ -145,4 +145,7 @@ def prime_num(num):
 def sum_digits():
     total = 0
     n = random.randint(100, 300)
+    temp = n
+    while temp > 0:
+        total += n % 10
     return n, total
