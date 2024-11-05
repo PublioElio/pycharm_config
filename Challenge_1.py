@@ -150,7 +150,7 @@ def sum_digits():
 
 def sum_digits_of_number(number):
     total = 0
-    while temp > 0:
-        total += temp % 10
-        temp //= 10
+    while number > 0:
+        total += number % 10
+        number //= 10
     return total
