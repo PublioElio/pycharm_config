@@ -143,10 +143,9 @@ def prime_num(num):
 
 # challenge 18
 def sum_digits():
-    total = 0
     n = random.randint(100, 300)
-    temp = n
-    while temp > 0:
-        total += temp % 10
-        temp //= 10
+    total = sum_digits_of_number(n)
     return n, total
+
+
+def sum_digits_of_number(number)
