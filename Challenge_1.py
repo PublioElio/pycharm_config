@@ -159,17 +159,13 @@ def sum_digits_of_number(number):
 # challenge 19
 def divide_by_15():
     input_list = generate_list(10)
-    output_list = []
-    for number in input_list:
-        if number % 15 == 0:
-            output_list.append(number)
-    return input_list, output_list
+    return input_list, get_divisible_by_15(input_list)
 
 
 def generate_list(length):
-    new_list = []
-    for i in range(0, length):
-        new_list.append(random.randint(0, 100))
-    return new_list
+    return [random.randint(0, 100) for _ in range(length)]
 
+
+def get_divisible_by_15(input_list):
+    return [number for number in input_list if number % 15 == 0]
 
