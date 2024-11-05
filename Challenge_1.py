@@ -169,3 +169,12 @@ def generate_list(length):
 def get_divisible_by_15(input_list):
     return [number for number in input_list if number % 15 == 0]
 
+
+# challenge 20
+def swap_bits(num):
+    binary_str = f'{num:08b}'
+    pos1, pos2 = 2, 6
+    binary_list = list(binary_str)
+    binary_list[pos1], binary_list[pos2] = binary_list[pos2], binary_list[pos1]
+    swapped_binary_str = ''.join(binary_list)
+    return int(swapped_binary_str, pos1)
