@@ -159,6 +159,10 @@ def sum_digits_of_number(number):
 # challenge 19
 def divide_by_15():
     input_list = generate_list(10)
+    output_list = []
+    for number in input_list:
+        if number % 15 == 0:
+            output_list.append(number)
     return input_list, output_list
 
 
