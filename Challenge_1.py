@@ -154,3 +154,6 @@ def sum_digits_of_number(number):
         total += number % 10
         number //= 10
     return total
+
+
+# challenge 19
