@@ -142,3 +142,7 @@ def prime_num(num):
 
 
 # challenge 18
+def sum_digits():
+    total = 0
+    n = random.randint(100, 300)
+    return n, total
