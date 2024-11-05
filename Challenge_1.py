@@ -177,4 +177,4 @@ def swap_bits(num):
     binary_list = list(binary_str)
     binary_list[pos1], binary_list[pos2] = binary_list[pos2], binary_list[pos1]
     swapped_binary_str = ''.join(binary_list)
-    return int(swapped_binary_str, pos1)
+    return int(swapped_binary_str, 2)
