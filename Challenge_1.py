@@ -139,3 +139,6 @@ def prime_num(num):
             is_prime = num % count != 0
             count += 1
     return is_prime
+
+
+# challenge 18
