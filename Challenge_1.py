@@ -147,5 +147,6 @@ def sum_digits():
     n = random.randint(100, 300)
     temp = n
     while temp > 0:
-        total += n % 10
+        total += temp % 10
+        temp //= 10
     return n, total
