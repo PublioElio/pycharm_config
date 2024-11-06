@@ -1,6 +1,5 @@
 import datetime
 import random
-from operator import concat
 
 
 # challenge 01
