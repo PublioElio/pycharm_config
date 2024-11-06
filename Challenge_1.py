@@ -188,3 +188,6 @@ def fibonacci():
         next_number = output_sequence[-1] + output_sequence[-2]
         output_sequence.append(next_number)
     return n, output_sequence
+
+
+# challenge 22
