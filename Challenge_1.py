@@ -194,3 +194,7 @@ def fibonacci():
 def string_reverse(first_name, last_name):
     full_name = first_name + " " + last_name
     return full_name[::-1]
+
+
+# challenge 23
+def swap_strings(s1, s2):
