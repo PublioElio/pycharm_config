@@ -198,3 +198,5 @@ def string_reverse(first_name, last_name):
 
 # challenge 23
 def swap_strings(s1, s2):
+    s1, s2 = s2, s1
+    return s1, s2
