@@ -213,3 +213,12 @@ def count_vowels(input_string):
     return vowels
 
 
+# challenge 25
+def remove_duplicates(input_string):
+    seen = set()
+    output_string = []
+    for char in input_string:
+        if char not in seen:
+            seen.add(char)
+            output_string.append(char)
+    return ''.join(output_string)
