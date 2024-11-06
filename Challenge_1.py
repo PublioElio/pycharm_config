@@ -200,3 +200,14 @@ def string_reverse(first_name, last_name):
 def swap_strings(s1, s2):
     s1, s2 = s2, s1
     return s1, s2
+
+
+# challenge 24
+def count_vowels(input_string):
+    # Un conjunto (set) es más eficiente para las comprobaciones de pertenencia que una cadena.
+    vowels_set = {'a', 'e', 'i', 'o', 'u'}
+    vowels = 0
+    for char in input_string.lower():
+        if char in vowels_set:
+            vowels += 1
+    return vowels
