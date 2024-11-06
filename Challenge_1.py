@@ -222,3 +222,16 @@ def remove_duplicates(input_string):
             seen.add(char)
             output_string.append(char)
     return ''.join(output_string)
+
+
+# challenge 26
+def remove_consecutive_duplicates(input_string):
+    if not input_string:
+        output_string = ""
+    else:
+        output_string = [input_string[0]]
+        for char in input_string[1:]:
+            if char != output_string[-1]:
+                output_string.append(char)
+        output_string = "".join(output_string)
+    return output_string
