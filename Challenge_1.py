@@ -251,8 +251,8 @@ def longest_prefix(s1, s2, s3, s4):
     mismatch_found = False
     while count < len(shortest_str) and mismatch_found == False:
         if s1[count] != s2[count] or s2[count] != s3[count] or s3[count] != s4[count]:
-           shortest_str = shortest_str[:count]
-           mismatch_found = True
+            shortest_str = shortest_str[:count]
+            mismatch_found = True
         count += 1
     return shortest_str
 
@@ -290,3 +290,10 @@ def str_to_int(input_string):
         input_string = input_string[:i]
     return int(input_string)
 
+
+# challenge 33
+def copies_of_string(input_string, num):
+    newstring = ""
+    for i in range(1, num):
+        newstring += input_string
+    return newstring
