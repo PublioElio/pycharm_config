@@ -258,3 +258,11 @@ def longest_prefix(s1, s2, s3, s4):
 
 
 # challenge 29
+def new_letter(s, t):
+    correct_word = set(s)
+    extra_letter = None
+    for char in t:
+        if char not in correct_word:
+            extra_letter = char
+            break
+    return extra_letter
