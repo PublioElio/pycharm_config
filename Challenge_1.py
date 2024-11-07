@@ -1,5 +1,6 @@
 import datetime
 import random
+from sys import prefix
 
 
 # challenge 01
@@ -245,4 +246,11 @@ def reverse_string(input_string):
 
 
 # challenge 28
-def 
+def longest_prefix(s1, s2, s3, s4):
+    prefix_list = []
+    match = True
+    count = 0
+    while match and count < len(s1):
+        for char in s1:
+            
+    return "".join(prefix_list)
