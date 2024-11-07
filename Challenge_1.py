@@ -239,4 +239,7 @@ def remove_consecutive_duplicates(input_string):
 
 # challenge 27
 def reverse_string(input_string):
-    return
+    string_list = input_string.split()
+    string_list.reverse()
+    return " ".join(string_list)
+
