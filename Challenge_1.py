@@ -271,8 +271,13 @@ def new_letter(s, t):
 # challenge 30
 def string_to_bool(input_string):
     output = "Invalid input"
-    if input_string.lower == 'true':
+    if input_string.lower() == 'true':
         output = True
-    elif input_string.lower == 'false':
+    elif input_string.lower() == 'false':
         output = False
     return output
+
+
+# challenge 31
+def remove_spaces(input_string):
+    return ''.join([char for char in input_string if char != ' '])
