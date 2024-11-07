@@ -281,3 +281,12 @@ def string_to_bool(input_string):
 # challenge 31
 def remove_spaces(input_string):
     return ''.join([char for char in input_string if char != ' '])
+
+
+# challenge 32
+def str_to_int(input_string):
+    i = input_string.find('.')
+    if i != -1:
+        input_string = input_string[:i]
+    return input_string
+
