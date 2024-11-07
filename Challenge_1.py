@@ -293,7 +293,4 @@ def str_to_int(input_string):
 
 # challenge 33
 def copies_of_string(input_string, num):
-    newstring = ""
-    for i in range(1, num):
-        newstring += input_string
-    return newstring
+    return input_string * num
