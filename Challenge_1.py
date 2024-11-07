@@ -294,3 +294,15 @@ def str_to_int(input_string):
 # challenge 33
 def copies_of_string(input_string, num):
     return input_string * num
+
+
+# challenge 34
+def count_case(sample_string):
+    count = 0
+    string_list = list(sample_string)
+    for char in string_list:
+        if char.isupper():
+            count += 1
+    return count
+
+
