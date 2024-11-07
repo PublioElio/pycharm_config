@@ -299,3 +299,6 @@ def copies_of_string(input_string, num):
 # challenge 34
 def count_case(sample_string):
     return sum(1 for char in sample_string if char.isupper())
+
+
+# challenge 35
