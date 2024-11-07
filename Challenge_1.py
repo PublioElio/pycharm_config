@@ -238,4 +238,5 @@ def remove_consecutive_duplicates(input_string):
 
 
 # challenge 27
-def reverse_string():
+def reverse_string(input_string):
+    return
