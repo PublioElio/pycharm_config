@@ -235,3 +235,7 @@ def remove_consecutive_duplicates(input_string):
                 output_string.append(char)
         output_string = "".join(output_string)
     return output_string
+
+
+# challenge 27
+
