@@ -266,3 +266,13 @@ def new_letter(s, t):
             extra_letter = char
             break
     return extra_letter
+
+
+# challenge 30
+def string_to_bool(input_string):
+    output = "Invalid input"
+    if input_string.lower == 'true':
+        output = True
+    elif input_string.lower == 'false':
+        output = False
+    return output
