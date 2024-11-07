@@ -238,4 +238,4 @@ def remove_consecutive_duplicates(input_string):
 
 
 # challenge 27
-
+def
