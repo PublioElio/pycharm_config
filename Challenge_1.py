@@ -256,3 +256,6 @@ def longest_prefix(s1, s2, s3, s4):
            mismatch_found = True
         count += 1
     return shortest_str
+
+
+# c
