@@ -298,11 +298,4 @@ def copies_of_string(input_string, num):
 
 # challenge 34
 def count_case(sample_string):
-    count = 0
-    string_list = list(sample_string)
-    for char in string_list:
-        if char.isupper():
-            count += 1
-    return count
-
-
+    return sum(1 for char in sample_string if char.isupper())
