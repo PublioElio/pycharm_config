@@ -288,5 +288,5 @@ def str_to_int(input_string):
     i = input_string.find('.')
     if i != -1:
         input_string = input_string[:i]
-    return input_string
+    return int(input_string)
 
