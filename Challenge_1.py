@@ -247,10 +247,12 @@ def reverse_string(input_string):
 
 # challenge 28
 def longest_prefix(s1, s2, s3, s4):
-    prefix_list = []
-    match = True
+    shortest_str = min(s1, s2, s3, s4, key=len)
     count = 0
-    while match and count < len(s1):
-        for char in s1:
-            
-    return "".join(prefix_list)
+    mismatch_found = False
+    while count < len(shortest_str) and mismatch_found == False:
+        if s1[count] != s2[count] or s2[count] != s3[count] or s3[count] != s4[count]:
+           shortest_str = shortest_str[:count]
+           mismatch_found = True
+        count += 1
+    return shortest_str
