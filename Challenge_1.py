@@ -1,6 +1,5 @@
 import datetime
 import random
-from sys import prefix
 
 
 # challenge 01
