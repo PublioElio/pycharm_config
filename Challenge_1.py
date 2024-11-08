@@ -308,3 +308,8 @@ def convert_to_hex(input_string):
         valor_hex = format(ord(char), 'x')
         result.append(valor_hex)
     return ' '.join(result)
+
+
+# challenge 36
+def separate_digits(num):
+    return output_string
