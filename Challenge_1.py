@@ -313,3 +313,15 @@ def convert_to_hex(input_string):
 # challenge 36
 def separate_digits(num):
     return [int(char) for char in str(num)]
+
+
+# challenge 37
+def pangram(input_string):
+    found_letters = set()
+    for char in input_string.lower():
+        if char.isalpha():
+            found_letters.add(char)
+    return len(found_letters) == 26
+
+
+# challenge 38
