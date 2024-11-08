@@ -302,4 +302,4 @@ def count_case(sample_string):
 
 
 # challenge 35
-def convert_to_hex
+def convert_to_hex(input_string):
