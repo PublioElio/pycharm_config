@@ -302,8 +302,9 @@ def count_case(sample_string):
 
 
 # challenge 35
-def convert_to_hex(input_stringHell):
+def convert_to_hex(input_string):
     result = list(input_string)
     for char in input_string:
         valor_hex = format(ord(char), 'x')
-    return
+        result.append(valor_hex)
+    return ' '.join(result)
