@@ -312,4 +312,4 @@ def convert_to_hex(input_string):
 
 # challenge 36
 def separate_digits(num):
-    return output_string
+    return [int(char) for char in str(num)]
