@@ -325,3 +325,5 @@ def pangram(input_string):
 
 
 # challenge 38
+def remove_char(input_string, char):
+    return input_string.replace(char, '')
